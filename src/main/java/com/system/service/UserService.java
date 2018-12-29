@@ -15,5 +15,5 @@ public interface UserService {
 	 * @return list<User>
 	 * 分页查询所有的用户信息
 	 */
-	public MyPage queryUserByPage(ISearchCondition searchCodition);
+	public MyPage queryUserByPage(ISearchCondition searchCodition) throws Exception;
 }

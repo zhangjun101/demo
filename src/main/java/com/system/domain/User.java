@@ -1,12 +1,7 @@
 package com.system.domain;
 
 import java.io.Serializable;
-//import javax.persistence.Column;
-//import javax.persistence.Entity;
-//import javax.persistence.GeneratedValue;
-//import javax.persistence.Id;
-
-
+import java.util.Date;
 
 public class User implements Serializable {
 
@@ -14,13 +9,26 @@ public class User implements Serializable {
 
 	private Long id;
 	
-	private String userName;
+	private String userName;    //
 	
-	private String email;
+	private String email;      //
 	
-	private String passWord;
-
-	private Long deptId;
+	private String passWord;    //
+	
+	private Date createTime;    //创建时间
+	
+	private Date modifyTime;    //修改时间
+	
+	private Long createUser;    //创建人id
+	
+	private Long modifyUser;    //修改人id
+	
+	private Long deptId;		//部门id
+	
+	
+	// 下面是数据库不存在的字段
+	private Dept dept;          //部门对象
+	
 	
 	
 	
@@ -67,6 +75,59 @@ public class User implements Serializable {
 
 	public void setDeptId(Long deptId) {
 		this.deptId = deptId;
+	}
+
+	
+	
+	
+
+	public Date getCreateTime() {
+		return createTime;
+	}
+
+
+	public void setCreateTime(Date createTime) {
+		this.createTime = createTime;
+	}
+
+
+	public Date getModifyTime() {
+		return modifyTime;
+	}
+
+
+	public void setModifyTime(Date modifyTime) {
+		this.modifyTime = modifyTime;
+	}
+
+
+	public Long getCreateUser() {
+		return createUser;
+	}
+
+
+	public void setCreateUser(Long createUser) {
+		this.createUser = createUser;
+	}
+
+
+	public Long getModifyUser() {
+		return modifyUser;
+	}
+
+
+	public void setModifyUser(Long modifyUser) {
+		this.modifyUser = modifyUser;
+	}
+
+
+	public Dept getDept() {
+		return dept;
+	}
+
+
+	public void setDept(Dept dept) {
+		this.dept = dept;
 	}
 
 

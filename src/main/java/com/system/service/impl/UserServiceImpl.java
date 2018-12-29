@@ -21,7 +21,7 @@ public class UserServiceImpl implements UserService{
 	private UserMapper userMapper;
 	
 	@Override
-	public MyPage queryUserByPage(ISearchCondition searchCoditions) {
+	public MyPage queryUserByPage(ISearchCondition searchCoditions) throws Exception {
 		PageHelper.startPage(1, 2);
 		List<User> queryAllUserInfo = userMapper.queryAllUserInfo();
 		PageInfo page = new PageInfo(queryAllUserInfo);

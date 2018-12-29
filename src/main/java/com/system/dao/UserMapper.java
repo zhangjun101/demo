@@ -19,7 +19,7 @@ public interface UserMapper {
 	 * 查询所有的用户信息
 	 * @return list<User>
 	 */
-	public List<User> queryAllUserInfo();
+	public List<User> queryAllUserInfo() throws Exception;
 	
 	
 	

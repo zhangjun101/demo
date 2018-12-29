@@ -5,16 +5,41 @@
 
 <mapper namespace="com.system.dao.UserMapper">
 
-	<!-- 分页查询所有的用户 -->
-	<select id="queryAllUserInfo" resultType="User">
-	    SELECT
-	        *
-	    FROM
-	        user
-	    ORDER BY
-	        id DESC
+	<!-- 用户基础映射 -->
+	<resultMap id="userBaseResultMap" type="User">
+	  <id property="id" column="id" />
+	  <result property="userName" column="user_name"/>
+	  <result property="passWord" column="pass_word"/>
+	  <result property="email" column="email"/>
+	  <result property="deptId" column="dept_id"/>
+	</resultMap>
+
+	<!-- 用户映射(包含部门信息) -->
+	<resultMap id="userResultMap2" type="User" extends="userBaseResultMap">
+	  <association property="dept" column="dept"   javaType="Dept" 
+	  	resultMap="com.system.dao.DeptMapper.baseDeptResultMap"/>
+	</resultMap>
+
+	<!-- 根据部门查询所有的用户 -->
+	<select id="queryAllUserInfo1" resultMap="com.system.dao.UserMapper.userBaseResultMap">
+	    SELECT * FROM sys_user WHERE dept_id=#{dept_id}
+	</select>
+
+	<!-- 查询所有的用户(包含部门信息) -->
+	<select id="queryAllUserInfo" resultMap="com.system.dao.UserMapper.userResultMap2">
+	    SELECT u.*,d.* FROM sys_user u 
+	    	left join sys_dept d on u.dept_id=d.id
+	    	ORDER BY d.id ASC
 	</select>
 	
+
+	
+
+
+
+
+
+
 </mapper>
 
 

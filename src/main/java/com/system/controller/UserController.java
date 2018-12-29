@@ -1,8 +1,7 @@
 package com.system.controller;
 
 import org.apache.ibatis.session.SqlSession;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,10 +15,10 @@ import com.system.utils.controllerUtil.ISearchCondition;
 @RequestMapping("/user")
 public class UserController extends BaseController{
 	
-	private static Logger LOGGER = LoggerFactory.getLogger(UserController.class);	
+	private static Logger logger=Logger.getLogger(UserController.class);
 
-	 @Autowired
-	 private UserService userService;
+	@Autowired
+	private UserService userService;
 	    
     @Autowired
     private SqlSession sqlSession;
@@ -34,8 +33,13 @@ public class UserController extends BaseController{
     @RequestMapping("/getUserByPage")
     public MyPage getUsersByPage() {
     	ISearchCondition searchCodition = getSearchCodition();
-    	MyPage queryAllUserInfo = userService.queryUserByPage(searchCodition);
-        return queryAllUserInfo;
+    	MyPage queryUserByPage=null;
+    	try {
+        	 queryUserByPage = userService.queryUserByPage(searchCodition);
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+        return queryUserByPage;
     }
     
     

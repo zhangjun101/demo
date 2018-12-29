@@ -22,7 +22,7 @@ public class MyFilter1  implements Filter{
 	public void doFilter(ServletRequest request, ServletResponse response,
 			FilterChain chain) throws IOException, ServletException {
 		HttpServletRequest httpservletRequest = (HttpServletRequest) request;
-		System.out.println("过滤器this is MyFilter,url1 :"+httpservletRequest.getRequestURI());
+//		System.out.println("过滤器this is MyFilter,url1 :"+httpservletRequest.getRequestURI());
 		chain.doFilter(request, response);
 	}
 
