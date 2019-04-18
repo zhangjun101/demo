@@ -2,7 +2,7 @@ package com.system.configruation;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import com.system.filter.MyFilter1;
+import com.system.filter.XSSFilter;
 
 
 /**
@@ -13,8 +13,8 @@ import com.system.filter.MyFilter1;
 public class FilterConfiguration {
 	
 	@Bean
-    public MyFilter1 fileterMyFilter1() {
-        return new MyFilter1();
+    public XSSFilter fileterMyFilter1() {
+        return new XSSFilter();
     }
 	
 	
@@ -24,10 +24,10 @@ public class FilterConfiguration {
 	@Bean
     public FilterRegistrationBean testFilterRegistration() {
         FilterRegistrationBean registration = new FilterRegistrationBean();
-        registration.setFilter(new MyFilter1());
+        registration.setFilter(new XSSFilter());
         registration.addUrlPatterns("/*");
         registration.addInitParameter("paramName", "paramValue");
-        registration.setName("MyFilter");
+        registration.setName("XSSFilter");
         registration.setOrder(1);
         return registration;
     }

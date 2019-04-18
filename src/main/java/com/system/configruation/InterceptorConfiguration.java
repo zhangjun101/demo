@@ -1,9 +1,10 @@
 package com.system.configruation;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.SpringBootConfiguration;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
+
 import com.system.interceptor.SessionInterceptor;
 
 
@@ -11,7 +12,7 @@ import com.system.interceptor.SessionInterceptor;
  * @author ZHANGJUN
  * 添加@SpringBootConfiguration 注解，将自定义SessionInterceptor加入拦截器中
  */
-@SpringBootConfiguration
+@Configuration
 public class InterceptorConfiguration  extends WebMvcConfigurerAdapter{
 	
 	@Autowired

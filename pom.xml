@@ -53,40 +53,40 @@
 	<dependencies>
 	
 		<!-- ==============springboot 核心依赖 ======================================-->
-		<!--spring-boot-starter ：核心模块，包括自动配置支持、日志和YAML -->
+		<!--1spring-boot-starter ：核心模块，包括自动配置支持、日志和YAML -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
 		
-		<!-- spring-boot-starter-test ：测试模块，包括JUnit、Hamcrest、Mockito -->
+		<!--2 spring-boot-starter-test ：测试模块，包括JUnit、Hamcrest、Mockito -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
 		
-		<!-- 添加支持web的模块： -->
+		<!--3 添加支持web的模块： -->
 		<dependency>
 		    <groupId>org.springframework.boot</groupId>    
 		    <artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 		
-		<!-- 修改之后可以实时生效 -->
+		<!--4 修改之后可以实时生效 -->
 		<dependency>
 	        <groupId>org.springframework.boot</groupId>
 	        <artifactId>spring-boot-devtools</artifactId>
 	        <optional>true</optional>
     	</dependency>
     	
-		<!-- ==================自定义数据库链接池 druid==========================-->
+		<!--5 ==================自定义数据库链接池 druid==========================-->
     	<dependency>
 		    <groupId>com.alibaba</groupId>
 		    <artifactId>druid</artifactId>
 		    <version>1.1.12</version>
 		</dependency>
     	
-    	<!-- ================引入servlet依赖=====================================-->  
+    	<!--6 ================引入servlet依赖=====================================-->  
 		<dependency>  
 		    <groupId>javax.servlet</groupId>  
 		    <artifactId>javax.servlet-api</artifactId>  
@@ -94,14 +94,14 @@
 		</dependency>  
     	
     	
-		<!-- ================ mysql 支持===========================================-->
+		<!--7 ================ mysql 支持===========================================-->
      	<dependency>
         	<groupId>mysql</groupId>
         	<artifactId>mysql-connector-java</artifactId>
     	</dependency>
     	
     	
-    	<!-- ================== springboot 对mybatis支持 ==========================-->
+    	<!--8 ================== springboot 对mybatis支持 ==========================-->
     	<dependency>
 		    <groupId>org.mybatis.spring.boot</groupId>
 		    <artifactId>mybatis-spring-boot-starter</artifactId>
@@ -109,7 +109,7 @@
 		</dependency>
 
 
-		<!-- ================== mybatis真分页插件 ==========================-->
+		<!--9 ================== mybatis真分页插件 ==========================-->
 		<dependency>
 		    <groupId>com.github.pagehelper</groupId>
 		    <artifactId>pagehelper</artifactId>
@@ -117,7 +117,7 @@
 		</dependency>
 
     	
-    	<!-- ================== spring jpa支持 ====================================-->
+    	<!--10 ================== spring jpa支持 ====================================-->
 <!--     	<dependency> -->
 <!--         	<groupId>org.springframework.boot</groupId> -->
 <!--         	<artifactId>spring-boot-starter-data-jpa</artifactId> -->
@@ -125,45 +125,66 @@
     	
     	
 		<!-- ======================springboot对jsp的支持======================= -->
-  		<!-- 引入servlet-jstl依赖. -->
+  		<!--11 引入servlet-jstl依赖. -->
         <dependency>  
           <groupId>javax.servlet</groupId>  
           <artifactId>jstl</artifactId>  
         </dependency>  
-		<!--SpringBoot默认不支持JSP，需要在项目中添加相关的依赖-->  
+		<!--12 SpringBoot默认不支持JSP，需要在项目中添加相关的依赖-->  
 		<dependency>  
 		    <groupId>org.apache.tomcat.embed</groupId>  
 		    <artifactId>tomcat-embed-jasper</artifactId>  
 		</dependency>  
   
 
-		<!-- ==================springboot对 阿里 fastjson支持=======================-->
+		<!--13 ==================springboot对 阿里 fastjson支持=======================-->
 		<dependency> 
 			<groupId>com.alibaba</groupId>
 			<artifactId>fastjson</artifactId>
 			<version>1.2.15 </version>
 		</dependency>
 		
-		<!-- ========================= 邮件支持 ================================== -->
+		<!--14 ========================= 邮件支持 ================================== -->
 		<dependency> 
 		    <groupId>org.springframework.boot</groupId>
 		    <artifactId>spring-boot-starter-mail</artifactId>
 		</dependency> 
 
-		<!-- ====redis 驱动========https://mvnrepository.com/artifact/redis.clients/jedis -->
+
+
+		<!--15 ====redis 驱动========https://mvnrepository.com/artifact/redis.clients/jedis -->
+<!-- 		<dependency> -->
+<!-- 		    <groupId>redis.clients</groupId> -->
+<!-- 		    <artifactId>jedis</artifactId> -->
+<!-- 		    <version>2.9.0</version> -->
+<!-- 		</dependency> -->
+	    <dependency>
+	    	<groupId>org.springframework.boot</groupId>
+	    	<artifactId>spring-boot-starter-data-redis</artifactId>
+	    </dependency>
+
+
+		<!--16 ==使用redis共享session支持== -->
 		<dependency>
-		    <groupId>redis.clients</groupId>
-		    <artifactId>jedis</artifactId>
-		    <version>2.8.0</version>
+		    <groupId>org.springframework.session</groupId>
+		    <artifactId>spring-session-data-redis</artifactId>
 		</dependency>
 
 		
-		<!-- ====excel文件导出：https://mvnrepository.com/artifact/org.apache.poi/poi ========-->
+		<!--17 ====excel文件导出：https://mvnrepository.com/artifact/org.apache.poi/poi ========-->
 		<dependency>
-		<groupId>org.apache.poi</groupId>
-		<artifactId>poi</artifactId>
-		<version>3.6</version>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>3.6</version>
 		</dependency>
+
+		
+         <!--18 springboot 对rabbitmq的支持 -->
+         <dependency>
+             <groupId>org.springframework.boot</groupId>
+             <artifactId>spring-boot-starter-amqp</artifactId>
+         </dependency>
+
 
 	</dependencies>
 		

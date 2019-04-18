@@ -10,7 +10,11 @@ import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServletRequest;
 
-public class MyFilter1  implements Filter{
+/**
+ * @author ZHANGJUN
+ * 防止xss工具过滤器
+ */
+public class XSSFilter  implements Filter{
 
 	@Override
 	public void init(FilterConfig filterConfig) throws ServletException {
@@ -22,14 +26,14 @@ public class MyFilter1  implements Filter{
 	public void doFilter(ServletRequest request, ServletResponse response,
 			FilterChain chain) throws IOException, ServletException {
 		HttpServletRequest httpservletRequest = (HttpServletRequest) request;
-//		System.out.println("过滤器this is MyFilter,url1 :"+httpservletRequest.getRequestURI());
-		chain.doFilter(request, response);
+		XSSRequestWrapper xssRequestWrapper = new XSSRequestWrapper(httpservletRequest);
+		chain.doFilter(xssRequestWrapper, response);
 	}
 
 	
 	@Override
 	public void destroy() {
-		
+		// TODO Auto-generated method stub
 	}
 
 }

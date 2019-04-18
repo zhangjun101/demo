@@ -1,5 +1,9 @@
 package com.system.controller;
 
+import java.util.UUID;
+
+import javax.servlet.http.HttpSession;
+
 import org.apache.ibatis.session.SqlSession;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,6 +29,22 @@ public class UserController extends BaseController{
    
    
     
+    @RequestMapping("/uid")
+    @ResponseBody
+    String uid() {
+    	//ISearchCondition searchCodition = getSearchCodition();
+    	HttpSession session = this.getSession();
+        UUID uid = (UUID) session.getAttribute("uid");
+        if (uid == null) {
+            uid = UUID.randomUUID();
+        }
+        session.setAttribute("uid", uid);
+        return session.getId();
+    }
+
+    
+    
+    
     /**
      * @return
      * 分页查询用户数据
@@ -41,6 +61,9 @@ public class UserController extends BaseController{
 		}
         return queryUserByPage;
     }
+    
+    
+    
     
     
     
