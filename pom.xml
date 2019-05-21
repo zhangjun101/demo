@@ -180,10 +180,11 @@
 
 		
          <!--18 springboot 对rabbitmq的支持 -->
-         <dependency>
-             <groupId>org.springframework.boot</groupId>
-             <artifactId>spring-boot-starter-amqp</artifactId>
-         </dependency>
+	    <dependency>
+	        <groupId>org.springframework.boot</groupId>
+	        <artifactId>spring-boot-starter-amqp</artifactId>
+	    </dependency>
+
 
 
 	</dependencies>
