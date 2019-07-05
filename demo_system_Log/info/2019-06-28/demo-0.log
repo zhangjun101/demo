@@ -1,0 +1,392 @@
+2019-06-28 09:40:41.196 [INFO ] com.DemoApplication - Starting DemoApplication on LAPTOP-5FK7QVSQ with PID 4528 (E:\mywork_study\springboot_demo\target\classes started by ZHANGJUN in E:\mywork_study\springboot_demo)
+2019-06-28 09:40:41.198 [INFO ] com.DemoApplication - The following profiles are active: dataSource,log,mybatis,mail,redis
+2019-06-28 09:40:41.271 [INFO ] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@32e0bf0b: startup date [Fri Jun 28 09:40:41 CST 2019]; root of context hierarchy
+2019-06-28 09:40:44.633 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-28 09:40:45.999 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$bd4c4c5c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-28 09:40:46.034 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfiguration' of type [com.system.configruation.RedisConfiguration$$EnhancerBySpringCGLIB$$b0efd5e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-28 09:40:46.040 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f6e08e2e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-28 09:40:46.715 [INFO ] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2019-06-28 09:40:46.734 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-06-28 09:40:46.751 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-28 09:40:46.751 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.34
+2019-06-28 09:40:47.032 [INFO ] org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-28 09:40:47.037 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/demo] - Initializing Spring embedded WebApplicationContext
+2019-06-28 09:40:47.037 [INFO ] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5766 ms
+2019-06-28 09:40:47.397 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-28 09:40:47.398 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'springSessionRepositoryFilter' to: [/*]
+2019-06-28 09:40:47.399 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-28 09:40:47.399 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-28 09:40:47.400 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-28 09:40:47.400 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'XSSFilter' to urls: [/*]
+2019-06-28 09:40:47.400 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'fileterMyFilter1' to: [/*]
+2019-06-28 09:40:47.401 [INFO ] org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2019-06-28 09:40:47.403 [INFO ] org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-06-28 09:40:48.121 [INFO ] org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-06-28 09:40:48.125 [INFO ] org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-06-28 09:40:48.152 [INFO ] org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2019-06-28 16:18:28.051 [INFO ] com.DemoApplication - Starting DemoApplication on LAPTOP-5FK7QVSQ with PID 16216 (E:\mywork_study\springboot_demo\target\classes started by ZHANGJUN in E:\mywork_study\springboot_demo)
+2019-06-28 16:18:28.052 [INFO ] com.DemoApplication - The following profiles are active: dataSource,log,mybatis,mail,redis
+2019-06-28 16:18:28.104 [INFO ] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1632af2b: startup date [Fri Jun 28 16:18:28 CST 2019]; root of context hierarchy
+2019-06-28 16:18:31.458 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-28 16:18:33.009 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$dae3bf9d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-28 16:18:33.049 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfiguration' of type [com.system.configruation.RedisConfiguration$$EnhancerBySpringCGLIB$$28a6709f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-28 16:18:33.056 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1478016f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-28 16:18:33.740 [INFO ] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2019-06-28 16:18:33.756 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-06-28 16:18:33.766 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-28 16:18:33.766 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.34
+2019-06-28 16:18:34.016 [INFO ] org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-28 16:18:34.021 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/demo] - Initializing Spring embedded WebApplicationContext
+2019-06-28 16:18:34.021 [INFO ] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5917 ms
+2019-06-28 16:18:34.426 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-28 16:18:34.427 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'springSessionRepositoryFilter' to: [/*]
+2019-06-28 16:18:34.427 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-28 16:18:34.427 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-28 16:18:34.427 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-28 16:18:34.427 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'XSSFilter' to urls: [/*]
+2019-06-28 16:18:34.427 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'fileterMyFilter1' to: [/*]
+2019-06-28 16:18:34.428 [INFO ] org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2019-06-28 16:18:34.430 [INFO ] org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-06-28 16:18:35.171 [INFO ] org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-06-28 16:18:35.174 [INFO ] org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-06-28 16:18:35.206 [INFO ] org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2019-06-28 16:21:43.319 [INFO ] com.DemoApplication - Starting DemoApplication on LAPTOP-5FK7QVSQ with PID 18184 (E:\mywork_study\springboot_demo\target\classes started by ZHANGJUN in E:\mywork_study\springboot_demo)
+2019-06-28 16:21:43.320 [INFO ] com.DemoApplication - The following profiles are active: dataSource,log,mybatis,mail,redis
+2019-06-28 16:21:43.372 [INFO ] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4c1b054c: startup date [Fri Jun 28 16:21:43 CST 2019]; root of context hierarchy
+2019-06-28 16:21:46.781 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-28 16:21:48.278 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$82d88a80] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-28 16:21:48.328 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfiguration' of type [com.system.configruation.RedisConfiguration$$EnhancerBySpringCGLIB$$d09b3b82] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-28 16:21:48.336 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bc6ccc52] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-28 16:21:49.030 [INFO ] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2019-06-28 16:21:49.045 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-06-28 16:21:49.055 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-28 16:21:49.055 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.34
+2019-06-28 16:21:49.300 [INFO ] org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-28 16:21:49.307 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/demo] - Initializing Spring embedded WebApplicationContext
+2019-06-28 16:21:49.308 [INFO ] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5936 ms
+2019-06-28 16:21:49.713 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-28 16:21:49.713 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'springSessionRepositoryFilter' to: [/*]
+2019-06-28 16:21:49.714 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-28 16:21:49.714 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-28 16:21:49.714 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-28 16:21:49.714 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'XSSFilter' to urls: [/*]
+2019-06-28 16:21:49.715 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'fileterMyFilter1' to: [/*]
+2019-06-28 16:21:49.715 [INFO ] org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2019-06-28 16:21:49.717 [INFO ] org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-06-28 16:21:50.454 [INFO ] org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-06-28 16:21:50.459 [INFO ] org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-06-28 16:21:50.492 [INFO ] org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2019-06-28 16:22:37.126 [INFO ] com.DemoApplication - Starting DemoApplication on LAPTOP-5FK7QVSQ with PID 15704 (E:\mywork_study\springboot_demo\target\classes started by ZHANGJUN in E:\mywork_study\springboot_demo)
+2019-06-28 16:22:37.127 [INFO ] com.DemoApplication - The following profiles are active: dataSource,log,mybatis,mail,redis
+2019-06-28 16:22:37.182 [INFO ] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@66e2e8a2: startup date [Fri Jun 28 16:22:37 CST 2019]; root of context hierarchy
+2019-06-28 16:22:40.663 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-28 16:22:42.076 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$6511af65] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-28 16:22:42.134 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfiguration' of type [com.system.configruation.RedisConfiguration$$EnhancerBySpringCGLIB$$b2d46067] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-28 16:22:42.144 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9ea5f137] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-28 16:22:42.810 [INFO ] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2019-06-28 16:22:42.825 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-06-28 16:22:42.837 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-28 16:22:42.837 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.34
+2019-06-28 16:22:43.083 [INFO ] org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-28 16:22:43.091 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/demo] - Initializing Spring embedded WebApplicationContext
+2019-06-28 16:22:43.091 [INFO ] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5909 ms
+2019-06-28 16:22:43.519 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-28 16:22:43.520 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'springSessionRepositoryFilter' to: [/*]
+2019-06-28 16:22:43.520 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-28 16:22:43.520 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-28 16:22:43.520 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-28 16:22:43.520 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'XSSFilter' to urls: [/*]
+2019-06-28 16:22:43.521 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'fileterMyFilter1' to: [/*]
+2019-06-28 16:22:43.521 [INFO ] org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2019-06-28 16:22:43.522 [INFO ] org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-06-28 16:22:44.281 [INFO ] org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-06-28 16:22:44.286 [INFO ] org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-06-28 16:22:44.322 [INFO ] org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2019-06-28 16:23:24.449 [INFO ] com.DemoApplication - Starting DemoApplication on LAPTOP-5FK7QVSQ with PID 17100 (E:\mywork_study\springboot_demo\target\classes started by ZHANGJUN in E:\mywork_study\springboot_demo)
+2019-06-28 16:23:24.450 [INFO ] com.DemoApplication - The following profiles are active: dataSource,log,mybatis,mail,redis
+2019-06-28 16:23:24.499 [INFO ] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@66e2e8a2: startup date [Fri Jun 28 16:23:24 CST 2019]; root of context hierarchy
+2019-06-28 16:23:28.311 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-28 16:23:30.103 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$c92beba8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-28 16:23:30.156 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfiguration' of type [com.system.configruation.RedisConfiguration$$EnhancerBySpringCGLIB$$16ee9caa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-28 16:23:30.163 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2c02d7a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-28 16:23:30.862 [INFO ] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2019-06-28 16:23:30.877 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-06-28 16:23:30.921 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-28 16:23:30.922 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.34
+2019-06-28 16:23:31.169 [INFO ] org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-28 16:23:31.175 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/demo] - Initializing Spring embedded WebApplicationContext
+2019-06-28 16:23:31.175 [INFO ] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 6676 ms
+2019-06-28 16:23:31.556 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-28 16:23:31.556 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'springSessionRepositoryFilter' to: [/*]
+2019-06-28 16:23:31.556 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-28 16:23:31.557 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-28 16:23:31.557 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-28 16:23:31.557 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'XSSFilter' to urls: [/*]
+2019-06-28 16:23:31.557 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'fileterMyFilter1' to: [/*]
+2019-06-28 16:23:31.557 [INFO ] org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2019-06-28 16:23:31.559 [INFO ] org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-06-28 16:23:32.340 [INFO ] org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-06-28 16:23:32.344 [INFO ] org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-06-28 16:23:32.379 [INFO ] org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2019-06-28 16:27:34.748 [INFO ] com.DemoApplication - Starting DemoApplication on LAPTOP-5FK7QVSQ with PID 1388 (E:\mywork_study\springboot_demo\target\classes started by ZHANGJUN in E:\mywork_study\springboot_demo)
+2019-06-28 16:27:34.748 [INFO ] com.DemoApplication - The following profiles are active: dataSource,log,mybatis,mail,redis
+2019-06-28 16:27:34.802 [INFO ] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@66e2e8a2: startup date [Fri Jun 28 16:27:34 CST 2019]; root of context hierarchy
+2019-06-28 16:27:38.385 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-28 16:27:40.032 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$5f579386] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-28 16:27:40.069 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfiguration' of type [com.system.configruation.RedisConfiguration$$EnhancerBySpringCGLIB$$ad1a4488] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-28 16:27:40.076 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$98ebd558] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-28 16:27:40.757 [INFO ] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2019-06-28 16:27:40.769 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-06-28 16:27:40.779 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-28 16:27:40.780 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.34
+2019-06-28 16:27:41.014 [INFO ] org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-28 16:27:41.019 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/demo] - Initializing Spring embedded WebApplicationContext
+2019-06-28 16:27:41.020 [INFO ] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 6218 ms
+2019-06-28 16:27:41.425 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-28 16:27:41.426 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'springSessionRepositoryFilter' to: [/*]
+2019-06-28 16:27:41.426 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-28 16:27:41.426 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-28 16:27:41.426 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-28 16:27:41.427 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'XSSFilter' to urls: [/*]
+2019-06-28 16:27:41.427 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'fileterMyFilter1' to: [/*]
+2019-06-28 16:27:41.427 [INFO ] org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2019-06-28 16:27:41.428 [INFO ] org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-06-28 16:27:42.176 [INFO ] org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-06-28 16:27:42.179 [INFO ] org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-06-28 16:27:42.208 [INFO ] org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2019-06-28 16:30:29.062 [INFO ] com.DemoApplication - Starting DemoApplication on LAPTOP-5FK7QVSQ with PID 13028 (E:\mywork_study\springboot_demo\target\classes started by ZHANGJUN in E:\mywork_study\springboot_demo)
+2019-06-28 16:30:29.063 [INFO ] com.DemoApplication - The following profiles are active: dataSource,log,mybatis,mail,redis
+2019-06-28 16:30:29.115 [INFO ] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4c1b054c: startup date [Fri Jun 28 16:30:29 CST 2019]; root of context hierarchy
+2019-06-28 16:30:32.395 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-28 16:30:33.861 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$9c694267] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-28 16:30:33.904 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfiguration' of type [com.system.configruation.RedisConfiguration$$EnhancerBySpringCGLIB$$ea2bf369] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-28 16:30:33.913 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d5fd8439] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-28 16:30:34.592 [INFO ] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2019-06-28 16:30:34.610 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-06-28 16:30:34.621 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-28 16:30:34.621 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.34
+2019-06-28 16:30:34.878 [INFO ] org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-28 16:30:34.883 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/demo] - Initializing Spring embedded WebApplicationContext
+2019-06-28 16:30:34.883 [INFO ] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5768 ms
+2019-06-28 16:30:35.295 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-28 16:30:35.296 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'springSessionRepositoryFilter' to: [/*]
+2019-06-28 16:30:35.296 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-28 16:30:35.296 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-28 16:30:35.296 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-28 16:30:35.296 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'XSSFilter' to urls: [/*]
+2019-06-28 16:30:35.297 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'fileterMyFilter1' to: [/*]
+2019-06-28 16:30:35.297 [INFO ] org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2019-06-28 16:30:35.299 [INFO ] org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-06-28 16:30:36.393 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4c1b054c: startup date [Fri Jun 28 16:30:29 CST 2019]; root of context hierarchy
+2019-06-28 16:30:36.506 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/mail]}" onto public java.lang.String com.example.controller.MailController.sendSimpleMail()
+2019-06-28 16:30:36.509 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/weixintest/callback]}" onto public java.lang.String com.example.controller.weixin.WeixinTestController.weChartCallback(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2019-06-28 16:30:36.509 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/weixintest/displayPage]}" onto public java.lang.String com.example.controller.weixin.WeixinTestController.displayPage()
+2019-06-28 16:30:36.510 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/weixintest/afterQueryPage]}" onto public java.lang.String com.example.controller.weixin.WeixinTestController.afterQueryPage()
+2019-06-28 16:30:36.510 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/weixintest/getWeChartCode]}" onto public java.lang.String com.example.controller.weixin.WeixinTestController.getWeChartCode() throws java.lang.Exception
+2019-06-28 16:30:36.511 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/dept/getAllDeptUser]}" onto public java.util.List<com.system.domain.Dept> com.system.controller.DeptController.getAllDeptUser()
+2019-06-28 16:30:36.513 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/login/login]}" onto public java.lang.String com.system.controller.LoginController.login()
+2019-06-28 16:30:36.513 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/login/loginToMain]}" onto public java.lang.String com.system.controller.LoginController.loginToMain()
+2019-06-28 16:30:36.514 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/login/userLogin]}" onto public java.lang.String com.system.controller.LoginController.userLogin()
+2019-06-28 16:30:36.515 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/user/getUserByPage]}" onto public com.system.utils.MyPage com.system.controller.UserController.getUsersByPage()
+2019-06-28 16:30:36.515 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/user/uid]}" onto java.lang.String com.system.controller.UserController.uid()
+2019-06-28 16:30:36.517 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-28 16:30:36.518 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-06-28 16:30:36.560 [INFO ] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-28 16:30:36.560 [INFO ] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-28 16:30:36.602 [INFO ] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-28 16:30:37.135 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-06-28 16:30:37.197 [INFO ] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-06-28 16:30:37.198 [INFO ] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-06-28 16:30:37.206 [INFO ] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'rabbitConnectionFactory' has been autodetected for JMX exposure
+2019-06-28 16:30:37.208 [INFO ] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2019-06-28 16:30:37.210 [INFO ] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'rabbitConnectionFactory': registering with JMX server as MBean [org.springframework.amqp.rabbit.connection:name=rabbitConnectionFactory,type=CachingConnectionFactory]
+2019-06-28 16:30:37.228 [INFO ] org.springframework.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2019-06-28 16:30:37.241 [INFO ] org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-28 16:30:37.248 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-06-28 16:30:37.269 [INFO ] org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-06-28 16:30:37.294 [INFO ] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2019-06-28 16:30:37.303 [INFO ] com.DemoApplication - Started DemoApplication in 8.695 seconds (JVM running for 9.17)
+2019-06-28 16:32:50.553 [INFO ] com.DemoApplication - Starting DemoApplication on LAPTOP-5FK7QVSQ with PID 17992 (E:\mywork_study\springboot_demo\target\classes started by ZHANGJUN in E:\mywork_study\springboot_demo)
+2019-06-28 16:32:50.555 [INFO ] com.DemoApplication - The following profiles are active: dataSource,log,mybatis,mail,redis
+2019-06-28 16:32:50.609 [INFO ] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1632af2b: startup date [Fri Jun 28 16:32:50 CST 2019]; root of context hierarchy
+2019-06-28 16:32:54.341 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-28 16:32:56.012 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$b4ce215a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-28 16:32:56.060 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfiguration' of type [com.system.configruation.RedisConfiguration$$EnhancerBySpringCGLIB$$290d25c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-28 16:32:56.072 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ee62632c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-28 16:32:56.792 [INFO ] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2019-06-28 16:32:56.811 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-06-28 16:32:56.823 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-28 16:32:56.824 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.34
+2019-06-28 16:32:57.093 [INFO ] org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-28 16:32:57.098 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/demo] - Initializing Spring embedded WebApplicationContext
+2019-06-28 16:32:57.098 [INFO ] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 6489 ms
+2019-06-28 16:32:57.486 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-28 16:32:57.486 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'springSessionRepositoryFilter' to: [/*]
+2019-06-28 16:32:57.486 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-28 16:32:57.486 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-28 16:32:57.487 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-28 16:32:57.487 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'XSSFilter' to urls: [/*]
+2019-06-28 16:32:57.487 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'fileterMyFilter1' to: [/*]
+2019-06-28 16:32:57.487 [INFO ] org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2019-06-28 16:32:57.488 [INFO ] org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-06-28 16:32:58.502 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1632af2b: startup date [Fri Jun 28 16:32:50 CST 2019]; root of context hierarchy
+2019-06-28 16:32:58.581 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/mail]}" onto public java.lang.String com.example.controller.MailController.sendSimpleMail()
+2019-06-28 16:32:58.583 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/weixintest/callback]}" onto public java.lang.String com.example.controller.weixin.WeixinTestController.weChartCallback(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2019-06-28 16:32:58.584 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/weixintest/getWeChartCode]}" onto public java.lang.String com.example.controller.weixin.WeixinTestController.getWeChartCode() throws java.lang.Exception
+2019-06-28 16:32:58.584 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/weixintest/displayPage]}" onto public java.lang.String com.example.controller.weixin.WeixinTestController.displayPage()
+2019-06-28 16:32:58.585 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/weixintest/afterQueryPage]}" onto public java.lang.String com.example.controller.weixin.WeixinTestController.afterQueryPage()
+2019-06-28 16:32:58.586 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/dept/getAllDeptUser]}" onto public java.util.List<com.system.domain.Dept> com.system.controller.DeptController.getAllDeptUser()
+2019-06-28 16:32:58.588 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/login/loginToMain]}" onto public java.lang.String com.system.controller.LoginController.loginToMain()
+2019-06-28 16:32:58.588 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/login/login]}" onto public java.lang.String com.system.controller.LoginController.login()
+2019-06-28 16:32:58.589 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/login/userLogin]}" onto public java.lang.String com.system.controller.LoginController.userLogin()
+2019-06-28 16:32:58.591 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/user/uid]}" onto java.lang.String com.system.controller.UserController.uid()
+2019-06-28 16:32:58.591 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/user/getUserByPage]}" onto public com.system.utils.MyPage com.system.controller.UserController.getUsersByPage()
+2019-06-28 16:32:58.594 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-28 16:32:58.595 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-06-28 16:32:58.635 [INFO ] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-28 16:32:58.635 [INFO ] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-28 16:32:58.693 [INFO ] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-28 16:32:59.244 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-06-28 16:32:59.304 [INFO ] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-06-28 16:32:59.305 [INFO ] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-06-28 16:32:59.313 [INFO ] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'rabbitConnectionFactory' has been autodetected for JMX exposure
+2019-06-28 16:32:59.316 [INFO ] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2019-06-28 16:32:59.318 [INFO ] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'rabbitConnectionFactory': registering with JMX server as MBean [org.springframework.amqp.rabbit.connection:name=rabbitConnectionFactory,type=CachingConnectionFactory]
+2019-06-28 16:32:59.337 [INFO ] org.springframework.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2019-06-28 16:32:59.348 [INFO ] org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-28 16:32:59.360 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-06-28 16:32:59.373 [INFO ] org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-06-28 16:32:59.398 [INFO ] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2019-06-28 16:32:59.403 [INFO ] com.DemoApplication - Started DemoApplication in 9.297 seconds (JVM running for 9.759)
+2019-06-28 16:40:25.932 [INFO ] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1632af2b: startup date [Fri Jun 28 16:32:50 CST 2019]; root of context hierarchy
+2019-06-28 16:40:25.936 [INFO ] org.springframework.context.support.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+2019-06-28 16:40:25.942 [INFO ] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-06-28 16:40:25.943 [INFO ] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2019-06-28 16:40:43.647 [INFO ] com.DemoApplication - Starting DemoApplication on LAPTOP-5FK7QVSQ with PID 5952 (E:\mywork_study\springboot_demo\target\classes started by ZHANGJUN in E:\mywork_study\springboot_demo)
+2019-06-28 16:40:43.649 [INFO ] com.DemoApplication - The following profiles are active: dataSource,log,mybatis,mail,redis
+2019-06-28 16:40:43.709 [INFO ] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@66e2e8a2: startup date [Fri Jun 28 16:40:43 CST 2019]; root of context hierarchy
+2019-06-28 16:40:47.271 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-28 16:40:48.811 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$efa67f43] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-28 16:40:48.855 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfiguration' of type [com.system.configruation.RedisConfiguration$$EnhancerBySpringCGLIB$$3d693045] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-28 16:40:48.864 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$293ac115] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-28 16:40:49.632 [INFO ] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2019-06-28 16:40:49.650 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-06-28 16:40:49.666 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-28 16:40:49.667 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.34
+2019-06-28 16:40:49.971 [INFO ] org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-28 16:40:49.978 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/demo] - Initializing Spring embedded WebApplicationContext
+2019-06-28 16:40:49.979 [INFO ] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 6270 ms
+2019-06-28 16:40:50.408 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-28 16:40:50.409 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'springSessionRepositoryFilter' to: [/*]
+2019-06-28 16:40:50.409 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-28 16:40:50.409 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-28 16:40:50.409 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-28 16:40:50.409 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'XSSFilter' to urls: [/*]
+2019-06-28 16:40:50.409 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'fileterMyFilter1' to: [/*]
+2019-06-28 16:40:50.409 [INFO ] org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2019-06-28 16:40:50.411 [INFO ] org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-06-28 16:40:51.511 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@66e2e8a2: startup date [Fri Jun 28 16:40:43 CST 2019]; root of context hierarchy
+2019-06-28 16:40:51.594 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/mail]}" onto public java.lang.String com.example.controller.MailController.sendSimpleMail()
+2019-06-28 16:40:51.597 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/weixintest/afterQueryPage]}" onto public java.lang.String com.example.controller.weixin.WeixinTestController.afterQueryPage()
+2019-06-28 16:40:51.597 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/weixintest/displayPage]}" onto public java.lang.String com.example.controller.weixin.WeixinTestController.displayPage()
+2019-06-28 16:40:51.597 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/weixintest/getWeChartCode]}" onto public java.lang.String com.example.controller.weixin.WeixinTestController.getWeChartCode() throws java.lang.Exception
+2019-06-28 16:40:51.598 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/weixintest/callback]}" onto public java.lang.String com.example.controller.weixin.WeixinTestController.weChartCallback(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2019-06-28 16:40:51.599 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/dept/getAllDeptUser]}" onto public java.util.List<com.system.domain.Dept> com.system.controller.DeptController.getAllDeptUser()
+2019-06-28 16:40:51.601 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/login/loginToMain]}" onto public java.lang.String com.system.controller.LoginController.loginToMain()
+2019-06-28 16:40:51.601 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/login/userLogin]}" onto public java.lang.String com.system.controller.LoginController.userLogin()
+2019-06-28 16:40:51.602 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/login/login]}" onto public java.lang.String com.system.controller.LoginController.login()
+2019-06-28 16:40:51.603 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/user/getUserByPage]}" onto public com.system.utils.MyPage com.system.controller.UserController.getUsersByPage()
+2019-06-28 16:40:51.604 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/user/uid]}" onto java.lang.String com.system.controller.UserController.uid()
+2019-06-28 16:40:51.606 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-28 16:40:51.607 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-06-28 16:40:51.653 [INFO ] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-28 16:40:51.654 [INFO ] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-28 16:40:51.718 [INFO ] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-28 16:40:52.300 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-06-28 16:40:52.385 [INFO ] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-06-28 16:40:52.387 [INFO ] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-06-28 16:40:52.396 [INFO ] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'rabbitConnectionFactory' has been autodetected for JMX exposure
+2019-06-28 16:40:52.398 [INFO ] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2019-06-28 16:40:52.401 [INFO ] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'rabbitConnectionFactory': registering with JMX server as MBean [org.springframework.amqp.rabbit.connection:name=rabbitConnectionFactory,type=CachingConnectionFactory]
+2019-06-28 16:40:52.424 [INFO ] org.springframework.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2019-06-28 16:40:52.438 [INFO ] org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-28 16:40:52.449 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-06-28 16:40:52.462 [INFO ] org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-06-28 16:40:52.491 [INFO ] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2019-06-28 16:40:52.498 [INFO ] com.DemoApplication - Started DemoApplication in 9.345 seconds (JVM running for 9.857)
+2019-06-28 16:43:49.230 [INFO ] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@66e2e8a2: startup date [Fri Jun 28 16:40:43 CST 2019]; root of context hierarchy
+2019-06-28 16:43:49.235 [INFO ] org.springframework.context.support.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+2019-06-28 16:43:49.241 [INFO ] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-06-28 16:43:49.242 [INFO ] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2019-06-28 16:43:49.712 [INFO ] com.DemoApplication - Starting DemoApplication on LAPTOP-5FK7QVSQ with PID 5952 (E:\mywork_study\springboot_demo\target\classes started by ZHANGJUN in E:\mywork_study\springboot_demo)
+2019-06-28 16:43:49.713 [INFO ] com.DemoApplication - The following profiles are active: dataSource,log,mybatis,mail,redis
+2019-06-28 16:43:49.717 [INFO ] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@49542492: startup date [Fri Jun 28 16:43:49 CST 2019]; root of context hierarchy
+2019-06-28 16:44:02.369 [INFO ] com.DemoApplication - Starting DemoApplication on LAPTOP-5FK7QVSQ with PID 18680 (E:\mywork_study\springboot_demo\target\classes started by ZHANGJUN in E:\mywork_study\springboot_demo)
+2019-06-28 16:44:02.370 [INFO ] com.DemoApplication - The following profiles are active: dataSource,log,mybatis,mail,redis
+2019-06-28 16:44:02.428 [INFO ] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1632af2b: startup date [Fri Jun 28 16:44:02 CST 2019]; root of context hierarchy
+2019-06-28 16:44:05.885 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-28 16:44:07.305 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$316b228f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-28 16:44:07.355 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfiguration' of type [com.system.configruation.RedisConfiguration$$EnhancerBySpringCGLIB$$7f2dd391] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-28 16:44:07.364 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6aff6461] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-28 16:44:08.027 [INFO ] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2019-06-28 16:44:08.044 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-06-28 16:44:08.057 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-28 16:44:08.058 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.34
+2019-06-28 16:44:08.291 [INFO ] org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-28 16:44:08.298 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/demo] - Initializing Spring embedded WebApplicationContext
+2019-06-28 16:44:08.298 [INFO ] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5870 ms
+2019-06-28 16:44:08.667 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-28 16:44:08.667 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'springSessionRepositoryFilter' to: [/*]
+2019-06-28 16:44:08.668 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-28 16:44:08.668 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-28 16:44:08.668 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-28 16:44:08.668 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'XSSFilter' to urls: [/*]
+2019-06-28 16:44:08.668 [INFO ] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'fileterMyFilter1' to: [/*]
+2019-06-28 16:44:08.668 [INFO ] org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2019-06-28 16:44:08.669 [INFO ] org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-06-28 16:44:09.743 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1632af2b: startup date [Fri Jun 28 16:44:02 CST 2019]; root of context hierarchy
+2019-06-28 16:44:09.816 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/mail]}" onto public java.lang.String com.example.controller.MailController.sendSimpleMail()
+2019-06-28 16:44:09.819 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/weixintest/getWeChartCode]}" onto public java.lang.String com.example.controller.weixin.WeixinTestController.getWeChartCode() throws java.lang.Exception
+2019-06-28 16:44:09.819 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/weixintest/afterQueryPage]}" onto public java.lang.String com.example.controller.weixin.WeixinTestController.afterQueryPage()
+2019-06-28 16:44:09.820 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/weixintest/callback]}" onto public java.lang.String com.example.controller.weixin.WeixinTestController.weChartCallback(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2019-06-28 16:44:09.820 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/weixintest/displayPage]}" onto public java.lang.String com.example.controller.weixin.WeixinTestController.displayPage()
+2019-06-28 16:44:09.821 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/dept/getAllDeptUser]}" onto public java.util.List<com.system.domain.Dept> com.system.controller.DeptController.getAllDeptUser()
+2019-06-28 16:44:09.823 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/login/loginToMain]}" onto public java.lang.String com.system.controller.LoginController.loginToMain()
+2019-06-28 16:44:09.823 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/login/login]}" onto public java.lang.String com.system.controller.LoginController.login()
+2019-06-28 16:44:09.823 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/login/userLogin]}" onto public java.lang.String com.system.controller.LoginController.userLogin()
+2019-06-28 16:44:09.824 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/user/getUserByPage]}" onto public com.system.utils.MyPage com.system.controller.UserController.getUsersByPage()
+2019-06-28 16:44:09.825 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/user/uid]}" onto java.lang.String com.system.controller.UserController.uid()
+2019-06-28 16:44:09.827 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-28 16:44:09.827 [INFO ] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-06-28 16:44:09.861 [INFO ] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-28 16:44:09.862 [INFO ] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-28 16:44:09.909 [INFO ] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-28 16:44:10.475 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-06-28 16:44:10.533 [INFO ] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-06-28 16:44:10.534 [INFO ] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-06-28 16:44:10.541 [INFO ] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'rabbitConnectionFactory' has been autodetected for JMX exposure
+2019-06-28 16:44:10.543 [INFO ] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2019-06-28 16:44:10.545 [INFO ] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'rabbitConnectionFactory': registering with JMX server as MBean [org.springframework.amqp.rabbit.connection:name=rabbitConnectionFactory,type=CachingConnectionFactory]
+2019-06-28 16:44:10.567 [INFO ] org.springframework.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2019-06-28 16:44:10.578 [INFO ] org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-06-28 16:44:10.588 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-06-28 16:44:10.598 [INFO ] org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-06-28 16:44:10.624 [INFO ] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2019-06-28 16:44:10.630 [INFO ] com.DemoApplication - Started DemoApplication in 8.709 seconds (JVM running for 9.164)
+2019-06-28 16:50:08.109 [INFO ] org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1534731971,1535098306,1536041106; func_dis=1; m=2258:YWRtaW46YWRtaW4%253D] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+2019-06-28 16:50:08.434 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/demo] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-06-28 16:50:08.435 [INFO ] org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2019-06-28 16:50:08.474 [INFO ] org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 39 ms
+2019-06-28 16:50:10.893 [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited

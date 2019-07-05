@@ -25,7 +25,6 @@ public class SessionInterceptor implements HandlerInterceptor{
 	@Override
 	public boolean preHandle(HttpServletRequest arg0, HttpServletResponse arg1,
 			Object arg2) throws Exception {
-//		System.err.println("这是自定义拦截器SessionInterceptor");
 		return true;
 	}
 

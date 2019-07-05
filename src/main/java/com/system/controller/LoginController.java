@@ -36,6 +36,7 @@ public class LoginController {
         return "system/jsp/main/main";
     }
     
+    
     @RequestMapping("/loginToMain")
     public String loginToMain() {
         return "system/jsp/main/main";

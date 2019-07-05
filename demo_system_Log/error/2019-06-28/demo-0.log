@@ -1,0 +1,90 @@
+2019-06-28 09:40:48.232 [ERROR] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method rabbitAdmin in com.rabbitmq.configruation.RabbitmqConfig required a bean of type 'com.rabbitmq.client.ConnectionFactory' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.rabbitmq.client.ConnectionFactory' in your configuration.
+
+2019-06-28 16:18:35.311 [ERROR] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method rabbitAdmin in com.rabbitmq.configruation.RabbitmqConfig required a bean of type 'com.rabbitmq.client.ConnectionFactory' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.rabbitmq.client.ConnectionFactory' in your configuration.
+
+2019-06-28 16:21:50.584 [ERROR] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method rabbitAdmin in com.rabbitmq.configruation.RabbitmqConfig required a bean of type 'com.rabbitmq.client.ConnectionFactory' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.rabbitmq.client.ConnectionFactory' in your configuration.
+
+2019-06-28 16:22:44.438 [ERROR] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method rabbitAdmin in com.rabbitmq.configruation.RabbitmqConfig required a bean of type 'com.rabbitmq.client.ConnectionFactory' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.rabbitmq.client.ConnectionFactory' in your configuration.
+
+2019-06-28 16:23:32.490 [ERROR] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method rabbitAdmin in com.rabbitmq.configruation.RabbitmqConfig required a bean of type 'com.rabbitmq.client.ConnectionFactory' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.rabbitmq.client.ConnectionFactory' in your configuration.
+
+2019-06-28 16:27:42.312 [ERROR] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method rabbitAdmin in com.rabbitmq.configruation.RabbitmqConfig required a bean of type 'com.rabbitmq.client.ConnectionFactory' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.rabbitmq.client.ConnectionFactory' in your configuration.
+
